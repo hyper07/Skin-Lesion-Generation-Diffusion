@@ -38,6 +38,18 @@ Generate synthetic dermoscopic images using 4 different generative models traine
 ![UI Evaluation](images/3_evaluation.png)
 
 
+## Tech Stack
+
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Diffusers-yellow.svg)](https://huggingface.co/docs/diffusers/index)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red.svg)](https://streamlit.io/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg)](https://www.docker.com/)
+[![Weights & Biases](https://img.shields.io/badge/Weights%20&%20Biases-Experiment%20Tracking-FFBE00.svg)](https://wandb.ai/)
+[![Diffusion Models](https://img.shields.io/badge/Diffusion-Models-FF6B6B.svg)](https://en.wikipedia.org/wiki/Diffusion_model)
+[![LoRA](https://img.shields.io/badge/LoRA-Fine--Tuning-9C27B0.svg)](https://arxiv.org/abs/2106.09685)
+
 ## 📚 Full Documentation
 
 **[Complete Project Documentation](https://docs.google.com/document/d/14nC9hbQKUlsImFxmFWOYz6TunfiWvMNqzaboft5dPyE/edit?tab=t.wsanzcdhkh2h)** - Methodology, architecture details, and results
