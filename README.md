@@ -11,6 +11,28 @@ Generate synthetic dermoscopic images using 4 different generative models traine
 | **Prebuilt GAN** | StyleGAN-based | Fine-tuning, transfer learning | ~4-6 hours |
 | **Prebuilt Diffusion** | Stable Diffusion | Best quality, memory efficient | ~8-12 hours |
 
+## Sample Generated Images
+
+### CGAN Generated Samples
+![CGAN Generated](images/cgan_generated.png)
+
+### Conditional Diffusion Generated Samples
+![Conditional Diffusion Generated](images/conditional_diffusion_generated.png)
+
+### Prebuilt GAN Generated Samples
+![Prebuilt GAN Generated](images/prebuilt_gan_generated.png)
+
+## UI Screenshots
+
+### Home Page
+![UI Home](images/ui_home.png)
+
+### Training Page
+![UI Training](images/ui_training.png)
+
+### Generation Page
+![UI Generation](images/ui_generation.png)
+
 ## 📚 Full Documentation
 
 **[Complete Project Documentation](https://docs.google.com/document/d/14nC9hbQKUlsImFxmFWOYz6TunfiWvMNqzaboft5dPyE/edit?tab=t.wsanzcdhkh2h)** - Methodology, architecture details, and results
