@@ -1,0 +1,15 @@
+{
+  "Actinic keratosis": 200,
+  "Basal cell carcinoma": 200,
+  "Benign keratosis (HAM)": 165,
+  "Dermatofibroma": 43,
+  "Melanoma (BCN)": 200,
+  "Melanoma (HAM)": 167,
+  "Melanoma metastasis": 95,
+  "Nevus": 200,
+  "Scar": 47,
+  "Seborrheic keratosis": 190,
+  "Solar lentigo": 42,
+  "Squamous cell carcinoma": 84,
+  "Vascular lesion": 21
+}

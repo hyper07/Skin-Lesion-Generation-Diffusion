@@ -1,0 +1,55 @@
+services:
+  apan5560-fast-api:
+    container_name: apan5560-fast-api
+    build:
+      context: .
+      dockerfile: ./api/Dockerfile
+    command: >
+      bash -c "
+        cd /app && \
+        python download_dataset.py '1KCjAyv1vjB1p92YcMS1rfTcXzFFc4LT0' && \
+        python download_models.py && \        docker-compose logs apan5560-fast-api
+        python main.py
+      "
+    ports:
+      - 18888:8888
+    environment:
+      - FASTAPI_APP=main.py
+    volumes:
+      - ./api:/app
+      - ./generate:/app/generate
+      - ./checkpoints:/app/checkpoints 
+      - ./lora_weights:/app/lora_weights
+      - ./outputs:/app/outputs
+      - ./dataset:/app/dataset
+      - ./download_dataset.py:/app/download_dataset.py
+      - ./download_models.py:/app/download_models.py
+    networks:
+      - apan5560-net
+  apan5560-streamlit-app:
+    image: streamlit-python3.11:latest
+    container_name: apan5560-streamlit-app
+    build:
+      context: .
+      dockerfile: ./app-streamlit/Dockerfile
+      args:
+        REQUIREMENTS_PATH: ./app-streamlit/requirements.txt
+        REQUIREMENTS_DEV_PATH: ./app-streamlit/requirements-dev.txt
+    command: streamlit run Home.py --server.port 18502
+    networks:
+      - apan5560-net
+    volumes:
+      - ./app-streamlit:/usr/src/app
+      - ./dataset:/usr/src/dataset
+      - ./checkpoints:/usr/src/checkpoints
+      - ./models:/usr/src/models
+      - ./generate:/usr/src/generate
+      - ./data:/usr/src/data
+      - ./log_eval:/usr/src/log_eval
+      - ./device_utils.py:/usr/src/device_utils.py
+    ports:
+      - 58502:18502
+
+networks:
+  apan5560-net:
+    driver: bridge

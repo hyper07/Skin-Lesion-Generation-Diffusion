@@ -1,0 +1,18 @@
+# Streamlit Configuration
+# Theme settings matching the AML Analysis Platform design
+
+[theme]
+primaryColor = "#0a3552"              # Dark blue accent color for widgets (matches app.css)
+backgroundColor = "#FFFFFF"           # White background for the main app body
+secondaryBackgroundColor = "#F0F2F6"  # Light gray background for elements like sidebar
+textColor = "#2c3e50"                 # Dark gray text color (matches app.css)
+font = "sans serif"                   # Default font
+
+# Additional Streamlit configuration
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true

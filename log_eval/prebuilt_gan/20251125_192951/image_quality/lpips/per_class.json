@@ -1,0 +1,15 @@
+{
+  "Actinic keratosis": 0.6168146278709173,
+  "Basal cell carcinoma": 0.6450958294421434,
+  "Benign keratosis (HAM)": 0.6574063716512738,
+  "Dermatofibroma": 0.8425344270329143,
+  "Melanoma (BCN)": 0.6307925458997488,
+  "Melanoma (HAM)": 0.5791255480158115,
+  "Melanoma metastasis": 0.6454448590153142,
+  "Nevus": 0.781115465760231,
+  "Scar": 0.5939377184878004,
+  "Seborrheic keratosis": 0.6275634515442347,
+  "Solar lentigo": 0.6205707376911527,
+  "Squamous cell carcinoma": 0.6040456805910382,
+  "Vascular lesion": 0.69240060874394
+}

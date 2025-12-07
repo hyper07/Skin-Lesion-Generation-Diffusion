@@ -1,0 +1,27 @@
+[project]
+name = "sps-genai"
+version = "0.1.0"
+description = "Kibaek's FastAPI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "requests",
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "python-dotenv",
+    "torch",
+    "torchvision",
+    "torchinfo",
+    "tqdm",
+    "spacy",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

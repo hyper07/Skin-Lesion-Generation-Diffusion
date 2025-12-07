@@ -1,0 +1,69 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Localazy (https://localazy.com)\n"
+"Project-Id-Version: Keyword Icebreaker\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : ((n%10>=2 && n%10<=4) && ((n%100<12 || n%100>14))) ? 1 : 2;\n"
+
+msgid "🔍 Search"
+msgstr "🔍 Szukaj"
+
+msgid "## This app uses Zenserp API"
+msgstr "## Ta aplikacja używa Zenserp API"
+
+msgid "Advanced settings"
+msgstr "Ustawienia zaawansowane"
+
+msgid "Article about it: [Keyword Monitoring Tool: Track your competition in search results](https://medium.datadriveninvestor.com/keyword-monitoring-tool-track-your-competition-in-search-results-83db61f0a696)"
+msgstr "Artykuł na ten temat: [Narzędzie monitorowania słów kluczowych: Śledź swoją konkurencję w wynikach wyszukiwania] (https://medium.datadriveninvestor.com/keyword-monitoring-tool-track-your-competition-in-search-results-83db61f0a696)"
+
+msgid "Demo:"
+msgstr "Demo:"
+
+msgid "Enter API key"
+msgstr "Wprowadź klucz API"
+
+msgid "Googles country code, autodetected from the search_engine if not supplied"
+msgstr "Kod kraju Googles, automatycznie wykrywany z search_engine, jeśli nie podano"
+
+msgid "It is NOT official app. We don't save this data anywhere, but if you want to feel safe, you can run the application on your own computer: [https://gist.github.com/fischerbach/1c93e04884f00e424137d179bd2a5093](https://gist.github.com/fischerbach/1c93e04884f00e424137d179bd2a5093) "
+msgstr "Nie jest to oficjalna aplikacja. Nigdzie nie zapisujemy tych danych, ale jeśli chcesz czuć się bezpiecznie, możesz uruchomić aplikację na swoim własnym komputerze: [https://gist.github.com/fischerbach/1c93e04884f00e424137d179bd2a5093](https://gist.github.com/fischerbach/1c93e04884f00e424137d179bd2a5093) "
+
+msgid "POT generate"
+msgstr "Generowanie POT"
+
+msgid "Search Query"
+msgstr "Wyszukiwane hasło"
+
+msgid "Select part of results page"
+msgstr "Wybierz część strony wyników"
+
+msgid "Select search_engine domain"
+msgstr "Wybierz domenę search_engine"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Show raw request"
+msgstr "Pokaż surowe żądanie"
+
+msgid "Show raw results"
+msgstr "Pokaż surowe wyniki"
+
+msgid "The geolocation used in the query"
+msgstr "Geolokalizacja używana w zapytaniu"
+
+msgid "To use it, you must enter your own API key. Create account: [https://zenserp.com/](https://zenserp.com/)"
+msgstr "Aby z niej skorzystać, musisz wprowadzić własny klucz API. Utwórz konto: [https://zenserp.com/](https://zenserp.com/)"
+
+msgid "Web Interface Language, autodetected from the search_engine if not supplied"
+msgstr "Język interfejsu WWW, automatycznie wykrywany z search_engine, jeśli nie podano"
+
+msgid "Which device to use: desktop or mobile"
+msgstr "Które urządzenie użyć: desktop lub mobile"
+
+msgid "table"
+msgstr "Tabela"

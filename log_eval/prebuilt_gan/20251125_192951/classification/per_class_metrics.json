@@ -1,0 +1,80 @@
+{
+  "Actinic keratosis": {
+    "precision": 4.710144927536232,
+    "recall": 13.0,
+    "f1": 6.914893617021277,
+    "support": 200
+  },
+  "Basal cell carcinoma": {
+    "precision": 4.213938411669368,
+    "recall": 13.0,
+    "f1": 6.364749082007344,
+    "support": 200
+  },
+  "Benign keratosis (HAM)": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 200
+  },
+  "Dermatofibroma": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 200
+  },
+  "Melanoma (BCN)": {
+    "precision": 39.577039274924466,
+    "recall": 65.5,
+    "f1": 49.34086629001883,
+    "support": 200
+  },
+  "Melanoma (HAM)": {
+    "precision": 97.91666666666666,
+    "recall": 23.5,
+    "f1": 37.903225806451616,
+    "support": 200
+  },
+  "Melanoma metastasis": {
+    "precision": 19.428571428571427,
+    "recall": 51.0,
+    "f1": 28.13793103448276,
+    "support": 200
+  },
+  "Nevus": {
+    "precision": 1.5151515151515151,
+    "recall": 0.5,
+    "f1": 0.7518796992481203,
+    "support": 200
+  },
+  "Scar": {
+    "precision": 4.285714285714286,
+    "recall": 3.0,
+    "f1": 3.5294117647058822,
+    "support": 200
+  },
+  "Seborrheic keratosis": {
+    "precision": 12.0,
+    "recall": 1.5,
+    "f1": 2.666666666666667,
+    "support": 200
+  },
+  "Solar lentigo": {
+    "precision": 5.405405405405405,
+    "recall": 1.0,
+    "f1": 1.6877637130801686,
+    "support": 200
+  },
+  "Squamous cell carcinoma": {
+    "precision": 44.89795918367347,
+    "recall": 11.0,
+    "f1": 17.670682730923694,
+    "support": 200
+  },
+  "Vascular lesion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "support": 200
+  }
+}

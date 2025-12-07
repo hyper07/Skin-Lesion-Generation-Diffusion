@@ -1,0 +1,9 @@
+{
+  "epoch": 500,
+  "losses": {
+    "loss": 0.21476639807224274
+  },
+  "accuracies": {},
+  "timestamp": "2025-11-06T01:08:16.035380",
+  "checkpoint_path": "/Users/nsls/Documents/Github/APAN-5560-KK3789/sps_genai/checkpoints/diffusion_cifar/latest_checkpoint.pth"
+}

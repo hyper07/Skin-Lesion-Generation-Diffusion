@@ -1,0 +1,49 @@
+[project]
+name = "apan5560-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Core dependencies
+    "dotenv>=0.9.9",
+    "ipykernel>=7.1.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "requests>=2.31.0",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    # Deep Learning & Computer Vision
+    "torch==2.3.1", # Pin to CUDA 12.1 compatible release
+    "torchvision==0.18.1",
+    "transformers>=4.57.1", # upgraded from your original 4.44.0
+    "diffusers>=0.35.2", # upgraded from your original 0.30.0
+    # Image Processing & Computer Vision
+    "opencv-python>=4.10.0",
+    "pillow>=10.4.0",
+    "imageio>=2.36.0",
+    "scikit-image>=0.24.0",
+    "albumentations>=1.4.0",
+    # Generative AI & Image Generation
+    "accelerate>=1.11.0", # upgraded from your original 0.34.0
+    "safetensors>=0.4.0",
+    "peft>=0.17.1", # added from incoming commit
+    # Progress Tracking & Utilities
+    "tqdm>=4.66.0",
+    "wandb>=0.18.0",
+    "tensorboard>=2.20.0", # upgraded from your original 2.18.0
+    "psutil>=6.1.0",
+    # Data Loading & Augmentation
+    "timm>=1.0.0",
+    "torchmetrics>=1.4.0",
+    "pytorch-lightning>=2.4.0",
+    # Mac M1/M2/M3 GPU Support (Metal Performance Shaders)
+    "tensordict>=0.5.0",
+    "torchrl>=0.5.0",
+    "fastapi>=0.121.3",
+    "uvicorn>=0.38.0",
+    "lpips>=0.1.4",
+    "scipy>=1.16.3",
+]

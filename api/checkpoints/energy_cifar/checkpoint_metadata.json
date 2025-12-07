@@ -1,0 +1,9 @@
+{
+  "epoch": 500,
+  "losses": {
+    "loss": 0.00021141022443771362
+  },
+  "accuracies": {},
+  "timestamp": "2025-11-05T15:52:05.193105",
+  "checkpoint_path": "/Users/nsls/Documents/Github/APAN-5560-KK3789/sps_genai/checkpoints/energy_cifar/latest_checkpoint.pth"
+}
