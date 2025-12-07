@@ -2,6 +2,20 @@
 
 Generate synthetic dermoscopic images using 4 different generative models trained on HAM10000 and ISIC datasets.
 
+## Tech Stack
+
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/release/python-3120/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Diffusers-yellow.svg)](https://huggingface.co/docs/diffusers/index)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red.svg)](https://streamlit.io/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688.svg)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg)](https://www.docker.com/)
+[![Weights & Biases](https://img.shields.io/badge/Weights%20&%20Biases-Experiment%20Tracking-FFBE00.svg)](https://wandb.ai/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green.svg)](https://opencv.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24+-013243.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458.svg)](https://pandas.pydata.org/)
+
+
 ## 🎯 Available Models
 
 | Model | Type | Best For | Training Time |
@@ -11,16 +25,6 @@ Generate synthetic dermoscopic images using 4 different generative models traine
 | **Prebuilt GAN** | StyleGAN-based | Fine-tuning, transfer learning | ~4-6 hours |
 | **Prebuilt Diffusion** | Stable Diffusion | Best quality, memory efficient | ~8-12 hours |
 
-## Sample Generated Images
-
-### CGAN Generated Samples
-![CGAN Generated](images/cgan_generated.png)
-
-### Conditional Diffusion Generated Samples
-![Conditional Diffusion Generated](images/conditional_diffusion_generated.png)
-
-### Prebuilt GAN Generated Samples
-![Prebuilt GAN Generated](images/prebuilt_gan_generated.png)
 
 ## UI Screenshots
 
@@ -32,6 +36,7 @@ Generate synthetic dermoscopic images using 4 different generative models traine
 
 ### Evaluation
 ![UI Evaluation](images/3_evaluation.png)
+
 
 ## 📚 Full Documentation
 
