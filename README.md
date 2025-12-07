@@ -25,13 +25,13 @@ Generate synthetic dermoscopic images using 4 different generative models traine
 ## UI Screenshots
 
 ### Home Page
-![UI Home](images/ui_home.png)
-
-### Training Page
-![UI Training](images/ui_training.png)
+![UI Home](images/1_main.png)
 
 ### Generation Page
-![UI Generation](images/ui_generation.png)
+![UI Generation](images/2_generation.png)
+
+### Evaluation
+![UI Evaluation](images/3_evaluation.png)
 
 ## 📚 Full Documentation
 
