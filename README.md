@@ -390,8 +390,6 @@ apan5560-project/
 │   │   ├── ISIC2018_Task3_Test_Images/
 │   │   ├── Test/
 │   │   └── readme.txt
-│   ├── Train Test Val.ipynb
-│   ├── Train Test Val (Top 3).ipynb
 │   ├── Exploration/
 │   │   └── Metadata Explorer.ipynb
 │   └── mockups/
